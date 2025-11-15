@@ -16,6 +16,7 @@ html {
     );
     background-attachment: fixed;
     min-height: 100vh;
+    scroll-behavior: smooth;
 }
 
 html::before {
@@ -443,4 +444,27 @@ section h2::after {
         font-size: 2rem;
     }
 
+    .contact-content {
+        flex-direction: column;
+        text-align: center;
+        gap: 1.5rem;
+    }
+
+}
+
+/* Contact Section */
+#contact {
+    padding-bottom: 12rem; /* Extra padding to clear the fade */
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: var(--accent);
+}
+
+.contact-content {
+    display: flex;
+    gap: 2rem;
 }
