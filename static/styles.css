@@ -204,6 +204,13 @@ nav {
     font-weight: 400;
 }
 
+.hero-pretitle {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
 #projects {
     border-radius: 1rem;
     padding-top: 4rem;
