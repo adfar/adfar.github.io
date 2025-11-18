@@ -204,6 +204,30 @@ nav {
     font-weight: 400;
 }
 
+.cta-button {
+    display: inline-block;
+    padding: 0.875rem 2rem;
+    background: var(--accent);
+    color: white;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    box-shadow: var(--shadow-md);
+    margin-top: 0.5rem;
+}
+
+.cta-button:hover {
+    background: #2563eb;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+}
+
+.cta-button:active {
+    transform: translateY(0);
+}
+
 .hero-pretitle {
     font-size: 1.5rem;
     color: var(--text-secondary);
