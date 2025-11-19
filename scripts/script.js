@@ -14,7 +14,7 @@ async function loadRepos() {
             repoCard.innerHTML = `
                 <h3>${repo.name}</h3>
                 <p>${repo.description || "No description available"}</p>
-                <a href="${repo.html_url}" target="_blank">View on GitHub ’</a>
+                <a href="${repo.html_url}" target="_blank">View on GitHub â†’</a>
             `;
             repoGrid.appendChild(repoCard);
         });
